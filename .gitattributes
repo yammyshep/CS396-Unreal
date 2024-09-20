@@ -1,0 +1,34 @@
+# Macros
+# [attr]lfs filter=lfs diff=lfs merge=binary -text
+[attr]lfs
+[attr]lock lockable
+
+# Normalize text file line endings
+* text=auto
+*.bat eol=crlf
+
+# Unreal Engine files
+*.umap lfs lock
+*.uasset lfs lock
+
+# Asset files
+*.png lfs
+*.jpg lfs
+*.jpeg lfs
+*.tif lfs
+*.tiff lfs
+*.gif lfs
+*.wav lfs
+*.mp3 lfs
+*.ogg lfs
+*.vorbis lfs
+*.mp4 lfs
+*.kv lfs
+*.webm lfs
+*.aac lfs
+*.ttf lfs
+*.mb lfs
+*.zbr lfs
+*.ztl lfs
+*.fbx lfs
+*.ico lfs
